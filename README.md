@@ -12,17 +12,13 @@ You can use as follows.
 </div>
 ```
 Note that the id of the <input> tag must be "form-valicode".
+
 You should also add angular codes in your html page like this:
-```html
-<script type="text/javascript">
-```
+
 ```javascript
   angular.module("loginApp",[])
     .controller("loginController",function($scope){
       $scope.createCode = createCode;
       $scope.validate = validate;
     });
-```
-```html
-</script>
 ```
