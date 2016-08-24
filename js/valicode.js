@@ -50,7 +50,7 @@ function validate() {
     else {
       //window.open(document.getElementById("J_down").getAttribute("data-link"));
       //document.getElementById("J_codetext").value="";
-      alert("输入正确！");
+      //alert("输入正确！");
       createCode();
       return true;
     }
