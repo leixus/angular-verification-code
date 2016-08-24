@@ -1,7 +1,7 @@
 # angular-verification-code
 
 ## Usage
-You can use as follows.
+You can use it as follows.
 ```html
 <div class="form-group">
   <label class="btn-block" for="form-valicode">验证码</label>
