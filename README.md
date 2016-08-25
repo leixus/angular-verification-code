@@ -1,8 +1,9 @@
 # angular-verification-code
 
 ## Usage
-You can use it as follows.
+It should be used as follows.
 ```html
+
 <div class="form-group">
   <label class="btn-block" for="form-valicode">验证码</label>
 	<input type="password" name="form-valicode" placeholder="" class="form-password form-control width-short" id="form-valicode" />
@@ -10,10 +11,11 @@ You can use it as follows.
 		当前浏览器不支持canvas标签！
 	</canvas>
 </div>
+<script src="scripts/valicode.js"></script>
 ```
 Note that the id of the <input> tag must be "form-valicode".
 
-You should also add angular codes in your html page like this:
+To make it work, please add such angular codes in the webpage as:
 
 ```javascript
   angular.module("loginApp",[])
