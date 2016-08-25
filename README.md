@@ -15,7 +15,7 @@ It should be used as follows.
 ```
 Note that the id of the <input> tag must be "form-valicode".
 
-To make it work, please add such angular codes in the webpage as:
+To make it work, please add such angular codes on the webpage as:
 
 ```javascript
   angular.module("loginApp",[])
